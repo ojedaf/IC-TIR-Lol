@@ -9,7 +9,7 @@ We release the PyTorch code of the TTIR model.
 ## Content
 
 - [Prerequisites](#prerequisites)
-- [Dataset](#data-preparation)
+- [Dataset](#dataset)
 - [Code](#code)
 - [Result](#testing)
 
