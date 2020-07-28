@@ -46,3 +46,5 @@ TTIR | 0.492 | 0.756 | 0.596 | 0.805 |
 CNN | 0.484 | 0.744 | 0.586 | 0.795 | 
 ANN | 0.476 | 0.732 | 0.566 | 0.785 |
 
+![tir-att](https://github.com/ojedaf/IC-TIR-Lol/blob/master/images/attn-1.png)
+
