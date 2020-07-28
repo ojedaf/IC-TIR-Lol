@@ -28,12 +28,23 @@ The used dataset is available [here](https://drive.google.com/drive/folders/1lsC
 
 ## Code
 
-We develop this project using Google Colab. That's why you must have a Google Account and the dataset in a gDrive folder. Furthermore, you have to change these paths according to the location of the dataset. 
+We develop this project using Google Colab. That's why you must have a Google Account and the dataset in a gDrive folder. Furthermore, you have to change these paths according to the location of the dataset.
 
 ```python
 train_path = '/content/gdrive/My Drive/Proyecto_RecSys/dataset/train_splits.pkl'
 test_path = '/content/gdrive/My Drive/Proyecto_RecSys/dataset/test_splits.pkl'
 champion_path = '/content/gdrive/My Drive/Proyecto_RecSys/dataset/champion_types.pkl'
+```
+
+And the comet parameters (api_key, project_name, workspace)
+
+```python
+comet_logger = CometLogger(
+    experiment_name=conf['exp_name'],
+    api_key = 'YOUR_KEY',
+    project_name="YOUR_PROJECT_NAME",
+    workspace = 'YOUR_WORKSPACE'
+)
 ```
 
 ## Results
