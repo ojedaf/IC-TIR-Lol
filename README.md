@@ -2,6 +2,6 @@
 
 See paper in [arXiv]()
 
-![tir-model](https://github.com/ojedaf/IC-TIR-Lol/tree/master/images/model.pdf)
+![tir-model](https://github.com/ojedaf/IC-TIR-Lol/tree/master/images/model-1.png)
 
 We release the PyTorch code of the TTIR model.
