@@ -34,5 +34,8 @@ We develop this project using Google Colab. That's why you must have a Google Ac
 train_path = '/content/gdrive/My Drive/Proyecto_RecSys/dataset/train_splits.pkl'
 test_path = '/content/gdrive/My Drive/Proyecto_RecSys/dataset/test_splits.pkl'
 champion_path = '/content/gdrive/My Drive/Proyecto_RecSys/dataset/champion_types.pkl'
-
 ```
+
+## Results
+
+This method outperforms the state of the art approaches and explains the result. 
