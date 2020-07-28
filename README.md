@@ -2,6 +2,6 @@
 
 See paper in [arXiv]()
 
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](/images/model.pdf)
 
 We release the PyTorch code of the TTIR model.
