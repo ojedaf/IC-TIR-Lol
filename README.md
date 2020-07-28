@@ -12,3 +12,11 @@ We release the PyTorch code of the TTIR model.
 - [Dataset](#data-preparation)
 - [Code](#code)
 - [Result](#testing)
+
+## Prerequisites
+
+The code is built with following libraries:
+
+- [PyTorch](https://pytorch.org/) 1.0 or higher
+- [Comet-ml](https://www.comet.ml/site/)
+- [PyTorchLightning](https://github.com/PyTorchLightning/pytorch-lightning)
