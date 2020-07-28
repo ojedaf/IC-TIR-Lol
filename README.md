@@ -39,3 +39,10 @@ champion_path = '/content/gdrive/My Drive/Proyecto_RecSys/dataset/champion_types
 ## Results
 
 This method outperforms the state of the art approaches and explains the result. 
+
+Method | Precision@6 | Recall@6 | F1@6 | MAP@6 |
+--- | --- | --- | --- |--- |
+TTIR | 0.492 | 0.756 | 0.596 | 0.805 |
+CNN | 0.484 | 0.744 | 0.586 | 0.795 | 
+ANN | 0.476 | 0.732 | 0.566 | 0.785 |
+
