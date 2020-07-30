@@ -1,19 +1,19 @@
 # Interpretable Contextual Team-aware Item Recommendation: Application in Multiplayer Online Battle Arena Game
 
-```python
+```
 @inproceedings{ttir,
-author = {Villa, Andrés and Araujo, Vladimir and Cattan, Francisca and Parra, Denis},
-title = {Interpretable Contextual Team-aware Item Recommendation]{Interpretable Contextual Team-aware Item Recommendation: Application in       Multiplayer Online Battle Arena Games},
-year = {2020},
-isbn = {9781450375832},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3383313.3412211},
-doi = {10.1145/3383313.3412211},
-booktitle = {Proceedings of the 14th ACM Conference on Recommender Systems},
-keywords = {item recommendation, deep learning, MOBA games},
-location = {Virtual Event, Brazil},
-series = {RecSys ’20}
+    author = {Villa, Andrés and Araujo, Vladimir and Cattan, Francisca and Parra, Denis},
+    title = {Interpretable Contextual Team-aware Item Recommendation]{Interpretable Contextual Team-aware Item Recommendation: Application in       Multiplayer Online Battle Arena Games},
+    year = {2020},
+    isbn = {9781450375832},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3383313.3412211},
+    doi = {10.1145/3383313.3412211},
+    booktitle = {Proceedings of the 14th ACM Conference on Recommender Systems},
+    keywords = {item recommendation, deep learning, MOBA games},
+    location = {Virtual Event, Brazil},
+    series = {RecSys ’20}
 }
 ```
 
@@ -47,7 +47,7 @@ The used dataset is available [here](https://drive.google.com/drive/folders/1lsC
 
 We develop this project using Google Colab. That's why you must have a Google Account and the dataset in a gDrive folder. Furthermore, you have to change these paths according to the location of the dataset.
 
-```
+```python
 train_path = '/content/gdrive/My Drive/Proyecto_RecSys/dataset/train_splits.pkl'
 test_path = '/content/gdrive/My Drive/Proyecto_RecSys/dataset/test_splits.pkl'
 champion_path = '/content/gdrive/My Drive/Proyecto_RecSys/dataset/champion_types.pkl'
