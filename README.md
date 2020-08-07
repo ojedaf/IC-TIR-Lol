@@ -1,23 +1,10 @@
 # Interpretable Contextual Team-aware Item Recommendation: Application in Multiplayer Online Battle Arena Game
 
-```
-@inproceedings{ttir,
-    author = {Villa, Andrés and Araujo, Vladimir and Cattan, Francisca and Parra, Denis},
-    title = {Interpretable Contextual Team-aware Item Recommendation]{Interpretable Contextual Team-aware Item Recommendation: Application in Multiplayer Online Battle Arena Games},
-    year = {2020},
-    isbn = {9781450375832},
-    publisher = {Association for Computing Machinery},
-    address = {New York, NY, USA},
-    url = {https://doi.org/10.1145/3383313.3412211},
-    doi = {10.1145/3383313.3412211},
-    booktitle = {Proceedings of the 14th ACM Conference on Recommender Systems},
-    keywords = {item recommendation, deep learning, MOBA games},
-    location = {Virtual Event, Brazil},
-    series = {RecSys ’20}
-}
-```
+<a href="https://colab.research.google.com/github/ojedaf/IC-TIR-Lol/blob/master/model.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
-See paper in [arXiv]()
+See paper in [arXiv](https://arxiv.org/abs/2007.15236)
 
 ![tir-model](https://github.com/ojedaf/IC-TIR-Lol/blob/master/images/model-1.png)
 
@@ -41,7 +28,7 @@ The code is built with following libraries:
 
 ## Dataset
 
-The used dataset is available [here](https://drive.google.com/drive/folders/1lsCjmVrOA0stNiUguGWKN46fEqzzsXPH?usp=sharing)
+The used dataset is available [here](https://drive.google.com/drive/folders/1lsCjmVrOA0stNiUguGWKN46fEqzzsXPH?usp=sharing).
 
 ## Code
 
@@ -64,6 +51,10 @@ comet_logger = CometLogger(
 )
 ```
 
+## Baselines
+
+This work uses the proposed models in [Data mining for item recommendation in MOBA games paper](https://github.com/vgaraujov/RecSysLoL) as baselines.
+
 ## Results
 
 This method outperforms the state of the art approaches and explains the result. 
@@ -75,3 +66,25 @@ CNN | 0.484 | 0.744 | 0.586 | 0.795 |
 ANN | 0.476 | 0.732 | 0.566 | 0.785 |
 
 ![tir-att](https://github.com/ojedaf/IC-TIR-Lol/blob/master/images/attn-1.png)
+
+## Citation
+
+If you find this repository useful for your research, please consider citing our paper: 
+```
+@inproceedings{ttir,
+    author = {Villa, Andrés and Araujo, Vladimir and Cattan, Francisca and Parra, Denis},
+    title = {Interpretable Contextual Team-aware Item Recommendation]{Interpretable Contextual Team-aware Item Recommendation: Application in Multiplayer Online Battle Arena Games},
+    year = {2020},
+    isbn = {9781450375832},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3383313.3412211},
+    doi = {10.1145/3383313.3412211},
+    booktitle = {Proceedings of the 14th ACM Conference on Recommender Systems},
+    keywords = {item recommendation, deep learning, MOBA games},
+    location = {Virtual Event, Brazil},
+    series = {RecSys ’20}
+}
+```
+
+For any questions, welcome to create an issue or contact Andrés Villa (afvilla@uc.cl) - Vladimir Araujo (vgaraujo@uc.cl).
