@@ -73,7 +73,7 @@ If you find this repository useful for your research, please consider citing our
 ```
 @inproceedings{ttir,
     author = {Villa, Andrés and Araujo, Vladimir and Cattan, Francisca and Parra, Denis},
-    title = {Interpretable Contextual Team-aware Item Recommendation]{Interpretable Contextual Team-aware Item Recommendation: Application in Multiplayer Online Battle Arena Games},
+    title = {Interpretable Contextual Team-aware Item Recommendation: Application in Multiplayer Online Battle Arena Games},
     year = {2020},
     isbn = {9781450375832},
     publisher = {Association for Computing Machinery},
