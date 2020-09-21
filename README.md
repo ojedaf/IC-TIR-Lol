@@ -71,19 +71,21 @@ ANN | 0.476 | 0.732 | 0.566 | 0.785 |
 
 If you find this repository useful for your research, please consider citing our paper: 
 ```
-@inproceedings{ttir,
-    author = {Villa, Andrés and Araujo, Vladimir and Cattan, Francisca and Parra, Denis},
-    title = {Interpretable Contextual Team-aware Item Recommendation: Application in Multiplayer Online Battle Arena Games},
-    year = {2020},
-    isbn = {9781450375832},
-    publisher = {Association for Computing Machinery},
-    address = {New York, NY, USA},
-    url = {https://doi.org/10.1145/3383313.3412211},
-    doi = {10.1145/3383313.3412211},
-    booktitle = {Proceedings of the 14th ACM Conference on Recommender Systems},
-    keywords = {item recommendation, deep learning, MOBA games},
-    location = {Virtual Event, Brazil},
-    series = {RecSys ’20}
+@inproceedings{10.1145/3383313.3412211,
+author = {Villa, Andr\'{e}s and Araujo, Vladimir and Cattan, Francisca and Parra, Denis},
+title = {Interpretable Contextual Team-Aware Item Recommendation: Application in Multiplayer Online Battle Arena Games},
+year = {2020},
+isbn = {9781450375832},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3383313.3412211},
+doi = {10.1145/3383313.3412211},
+booktitle = {Fourteenth ACM Conference on Recommender Systems},
+pages = {503–508},
+numpages = {6},
+keywords = {Item Recommendation, Deep Learning, MOBA Games},
+location = {Virtual Event, Brazil},
+series = {RecSys '20}
 }
 ```
 
